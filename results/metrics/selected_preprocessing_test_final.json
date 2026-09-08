@@ -1,0 +1,11 @@
+{
+  "model": "ResNet50",
+  "balancing_strategy": "weighted_sampler",
+  "preprocessing": "original",
+  "accuracy": 0.9001861330851559,
+  "macro_precision": 0.8872076792222215,
+  "macro_recall": 0.8925747430398414,
+  "macro_f1": 0.8829800818611528,
+  "test_samples": 4298,
+  "inference_time_seconds": 390.2332657999996
+}

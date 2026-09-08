@@ -1,0 +1,21 @@
+{
+  "dataset_root": "C:\\Users\\Dell\\Desktop\\Kacper Błachowiak - praca magisterska - klasyfikacja znaków drogowych\\KB_Praca_Magisterska\\data\\raw\\polish_traffic_signs_dataset",
+  "total_images": 21044,
+  "classes": 92,
+  "read_errors": 0,
+  "exact_duplicate_groups": 129,
+  "images_in_duplicate_groups": 259,
+  "cross_split_duplicate_groups": 1,
+  "original_train_images": 16746,
+  "train_after_leakage_control": 16744,
+  "validation_images": 2512,
+  "test_final_images": 4298,
+  "validation_ratio": 0.15,
+  "random_seed": 42,
+  "train_min_class_count": 15,
+  "train_median_class_count": 87.0,
+  "train_max_class_count": 1370,
+  "test_min_class_count": 5,
+  "test_median_class_count": 22.5,
+  "test_max_class_count": 337
+}

@@ -1,0 +1,41 @@
+{
+  "brightness_method": "P10_P90",
+  "dark_threshold": 59.53968009948732,
+  "bright_threshold": 168.24337310791014,
+  "model": "ResNet50",
+  "balancing_strategy": "weighted_sampler",
+  "overall_test_accuracy": 0.9001861330851559,
+  "overall_test_macro_f1": 0.8829800818611528,
+  "groups": [
+    {
+      "brightness_group": "dark",
+      "samples": 505,
+      "classes_present": 73,
+      "mean_brightness": 44.809502393892494,
+      "accuracy": 0.8514851485148515,
+      "macro_precision": 0.7940882004134743,
+      "macro_recall": 0.7990850011167349,
+      "macro_f1": 0.7844129271571556
+    },
+    {
+      "brightness_group": "normal",
+      "samples": 3284,
+      "classes_present": 89,
+      "mean_brightness": 112.51920256922509,
+      "accuracy": 0.9040803897685749,
+      "macro_precision": 0.8893447713559008,
+      "macro_recall": 0.8972462206764102,
+      "macro_f1": 0.8852919850646789
+    },
+    {
+      "brightness_group": "bright",
+      "samples": 509,
+      "classes_present": 53,
+      "mean_brightness": 186.65393558045034,
+      "accuracy": 0.9233791748526523,
+      "macro_precision": 0.8898335716465866,
+      "macro_recall": 0.8984564343690166,
+      "macro_f1": 0.8823226699580452
+    }
+  ]
+}

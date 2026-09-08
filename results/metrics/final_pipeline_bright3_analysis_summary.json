@@ -1,0 +1,10 @@
+{
+  "original_macro_f1": 0.8754510627352157,
+  "bright3_macro_f1": 0.8204520954071318,
+  "macro_f1_drop": 0.05499896732808385,
+  "bright3_total_errors": 595,
+  "new_errors_after_brightening": 321,
+  "mean_original_brightness_correct": 112.85962112600855,
+  "mean_original_brightness_errors": 116.35216155813522,
+  "mean_original_brightness_new_errors": 131.186825083795
+}

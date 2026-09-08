@@ -1,0 +1,57 @@
+{
+  "experiment": "lighting_augmentation_tuning",
+  "frozen_epochs": 5,
+  "fine_tune_epochs": 2,
+  "selection_metric": "mean_dark_macro_f1",
+  "best_configuration": "lighting_strong_dark",
+  "results": [
+    {
+      "configuration": "lighting_strong_dark",
+      "mean_dark_macro_f1": 0.875876538898519,
+      "mean_dark_accuracy": 0.8809713375796179,
+      "dark3_macro_f1": 0.8549339366813804,
+      "standard_macro_f1": 0.8872997734704953,
+      "f1_drop_to_dark3": 0.032365836789114866
+    },
+    {
+      "configuration": "lighting_high_probability",
+      "mean_dark_macro_f1": 0.870568004387525,
+      "mean_dark_accuracy": 0.8807059447983016,
+      "dark3_macro_f1": 0.8496275184934403,
+      "standard_macro_f1": 0.8914898158957973,
+      "f1_drop_to_dark3": 0.04186229740235703
+    },
+    {
+      "configuration": "lighting_balanced",
+      "mean_dark_macro_f1": 0.8676516567686822,
+      "mean_dark_accuracy": 0.8767250530785562,
+      "dark3_macro_f1": 0.847279578766398,
+      "standard_macro_f1": 0.883717004020405,
+      "f1_drop_to_dark3": 0.03643742525400695
+    },
+    {
+      "configuration": "lighting_current",
+      "mean_dark_macro_f1": 0.8663339659932183,
+      "mean_dark_accuracy": 0.8761942675159236,
+      "dark3_macro_f1": 0.8360831079165938,
+      "standard_macro_f1": 0.8830689385053317,
+      "f1_drop_to_dark3": 0.046985830588737953
+    },
+    {
+      "configuration": "lighting_moderate",
+      "mean_dark_macro_f1": 0.8594259101231976,
+      "mean_dark_accuracy": 0.8629246284501062,
+      "dark3_macro_f1": 0.8346672443220027,
+      "standard_macro_f1": 0.8831502654970269,
+      "f1_drop_to_dark3": 0.04848302117502423
+    },
+    {
+      "configuration": "baseline",
+      "mean_dark_macro_f1": 0.8461353734252653,
+      "mean_dark_accuracy": 0.8678343949044587,
+      "dark3_macro_f1": 0.8169831171123324,
+      "standard_macro_f1": 0.8873320949150687,
+      "f1_drop_to_dark3": 0.0703489778027363
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "model": "ResNet50",
+  "pretrained": true,
+  "balancing": "weighted_sampler",
+  "loss": "CrossEntropyLoss",
+  "gamma": 1.5,
+  "brightness_range": [
+    0.3,
+    1.3
+  ],
+  "contrast_range": [
+    0.8,
+    1.2
+  ],
+  "augmentation_probability": 0.8,
+  "frozen_epochs": 10,
+  "fine_tune_epochs": 5,
+  "frozen_learning_rate": 0.001,
+  "fine_tune_learning_rate": 1e-05
+}

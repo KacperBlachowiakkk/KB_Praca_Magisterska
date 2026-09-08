@@ -1,0 +1,24 @@
+{
+  "experiment": "augmentation_screening",
+  "frozen_epochs": 5,
+  "fine_tune_epochs": 2,
+  "selection_metric": "mean_dark_macro_f1",
+  "candidates": [
+    {
+      "configuration": "photometric",
+      "mean_dark_macro_f1": 0.8631878308396258,
+      "mean_dark_accuracy": 0.8723460721868365,
+      "dark3_macro_f1": 0.8423076073864746,
+      "standard_macro_f1": 0.894603973758915,
+      "f1_drop_to_dark3": 0.052296366372440395
+    },
+    {
+      "configuration": "baseline",
+      "mean_dark_macro_f1": 0.8461353734252653,
+      "mean_dark_accuracy": 0.8678343949044587,
+      "dark3_macro_f1": 0.8169831171123324,
+      "standard_macro_f1": 0.8873320949150687,
+      "f1_drop_to_dark3": 0.0703489778027363
+    }
+  ]
+}

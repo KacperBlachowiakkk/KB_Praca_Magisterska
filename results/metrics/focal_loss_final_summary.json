@@ -1,0 +1,66 @@
+{
+  "experiment": "focal_loss",
+  "model": "ResNet50",
+  "balancing_strategy": "weighted_sampler",
+  "lighting_augmentation": true,
+  "focal_gamma": 2.0,
+  "selected_configuration": "lighting_augmentation_ce",
+  "frozen_epochs": 5,
+  "fine_tune_epochs": 2,
+  "test_results": [
+    {
+      "configuration": "lighting_augmentation_ce",
+      "variant": "original",
+      "factor": 1.0,
+      "samples": 4298,
+      "accuracy": 0.8664495114006515,
+      "macro_precision": 0.8491499581772659,
+      "macro_recall": 0.8688267738283816,
+      "macro_f1": 0.8503648782003878,
+      "inference_time_seconds": 308.83404879999944
+    },
+    {
+      "configuration": "lighting_augmentation_ce",
+      "variant": "dark_1",
+      "factor": 0.7,
+      "samples": 4298,
+      "accuracy": 0.8562121917170777,
+      "macro_precision": 0.834712070094595,
+      "macro_recall": 0.8584217499347665,
+      "macro_f1": 0.8376026753148712,
+      "inference_time_seconds": 301.69986530000097
+    },
+    {
+      "configuration": "lighting_augmentation_ce",
+      "variant": "dark_2",
+      "factor": 0.5,
+      "samples": 4298,
+      "accuracy": 0.849232201023732,
+      "macro_precision": 0.8364013763673891,
+      "macro_recall": 0.8528333771617314,
+      "macro_f1": 0.8328044482296614,
+      "inference_time_seconds": 294.1245205999985
+    },
+    {
+      "configuration": "lighting_augmentation_ce",
+      "variant": "dark_3",
+      "factor": 0.3,
+      "samples": 4298,
+      "accuracy": 0.8243369008841321,
+      "macro_precision": 0.7993053608796924,
+      "macro_recall": 0.8217979909153165,
+      "macro_f1": 0.7951462005908561,
+      "inference_time_seconds": 293.66044780000084
+    }
+  ],
+  "test_summary": [
+    {
+      "configuration": "lighting_augmentation_ce",
+      "mean_dark_macro_f1": 0.8218511080451295,
+      "mean_dark_accuracy": 0.843260431208314,
+      "dark3_macro_f1": 0.7951462005908561,
+      "original_macro_f1": 0.8503648782003878,
+      "f1_drop_to_dark3": 0.0552186776095317
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "selected_configuration": "lighting_augmentation",
+  "selection_metric": "mean_dark_macro_f1",
+  "results": [
+    {
+      "configuration": "lighting_augmentation",
+      "mean_dark_macro_f1": 0.9132157423558577,
+      "dark3_macro_f1": 0.8944594436284149,
+      "standard_macro_f1": 0.9303921972648405,
+      "f1_drop_to_dark3": 0.03593275363642556
+    },
+    {
+      "configuration": "original",
+      "mean_dark_macro_f1": 0.8899133192414777,
+      "dark3_macro_f1": 0.863199546097667,
+      "standard_macro_f1": 0.9254608556725615,
+      "f1_drop_to_dark3": 0.06226130957489451
+    }
+  ]
+}

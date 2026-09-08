@@ -1,0 +1,21 @@
+{
+  "selected_configuration": "lighting_augmentation_ce",
+  "focal_gamma": 2.0,
+  "selection_metric": "mean_dark_macro_f1",
+  "results": [
+    {
+      "configuration": "lighting_augmentation_ce",
+      "mean_dark_macro_f1": 0.869541424478005,
+      "dark3_macro_f1": 0.8419730336991309,
+      "standard_macro_f1": 0.891684510617634,
+      "f1_drop_to_dark3": 0.049711476918503084
+    },
+    {
+      "configuration": "lighting_augmentation_focal",
+      "mean_dark_macro_f1": 0.861693816048413,
+      "dark3_macro_f1": 0.8326632285280278,
+      "standard_macro_f1": 0.8848020874813978,
+      "f1_drop_to_dark3": 0.052138858953370004
+    }
+  ]
+}

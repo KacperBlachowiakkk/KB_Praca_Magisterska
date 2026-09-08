@@ -1,0 +1,26 @@
+{
+  "experiment": "gamma_lighting_combination_screening",
+  "frozen_epochs": 5,
+  "fine_tune_epochs": 2,
+  "gamma": 1.5,
+  "selection_metric": "mean_dark_macro_f1",
+  "best_configuration": "lighting_strong_dark",
+  "results": [
+    {
+      "configuration": "lighting_strong_dark",
+      "mean_dark_macro_f1": 0.882245059671443,
+      "mean_dark_accuracy": 0.8845541401273884,
+      "dark3_macro_f1": 0.8630595981873996,
+      "standard_macro_f1": 0.8914844359414348,
+      "f1_drop_to_dark3": 0.028424837754035148
+    },
+    {
+      "configuration": "lighting_strong_dark_gamma_1.5",
+      "mean_dark_macro_f1": 0.8810746439094029,
+      "mean_dark_accuracy": 0.8915870488322718,
+      "dark3_macro_f1": 0.8734366610458855,
+      "standard_macro_f1": 0.8834809314916908,
+      "f1_drop_to_dark3": 0.010044270445805359
+    }
+  ]
+}

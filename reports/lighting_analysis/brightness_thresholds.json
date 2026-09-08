@@ -1,0 +1,13 @@
+{
+  "method": "percentiles",
+  "lower_percentile": 0.1,
+  "upper_percentile": 0.9,
+  "dark_threshold": 59.53968009948732,
+  "bright_threshold": 168.24337310791014,
+  "groups": {
+    "dark": "x <= 59.54",
+    "normal": "59.54 < x < 168.24",
+    "bright": "x >= 168.24"
+  },
+  "threshold_source": "train_only"
+}

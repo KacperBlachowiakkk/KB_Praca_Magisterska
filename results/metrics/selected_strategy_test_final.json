@@ -1,0 +1,9 @@
+{
+  "selected_strategy": "weighted_sampler",
+  "accuracy": 0.8208469055374593,
+  "macro_precision": 0.7848242792951252,
+  "macro_recall": 0.8323558723201515,
+  "macro_f1": 0.7760499393023498,
+  "test_samples": 4298,
+  "inference_time_seconds": 107.13097549999998
+}

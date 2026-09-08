@@ -1,0 +1,24 @@
+{
+  "selected_preprocessing": "gamma",
+  "selection_metric": "mean_dark_macro_f1",
+  "results": [
+    {
+      "method": "gamma",
+      "mean_dark_macro_f1": 0.8110908700531466,
+      "mean_dark_accuracy": 0.8459394904458599,
+      "dark3_macro_f1": 0.795795267279455
+    },
+    {
+      "method": "original",
+      "mean_dark_macro_f1": 0.7900360042999326,
+      "mean_dark_accuracy": 0.825371549893843,
+      "dark3_macro_f1": 0.7557630267288665
+    },
+    {
+      "method": "clahe",
+      "mean_dark_macro_f1": 0.7458861337638093,
+      "mean_dark_accuracy": 0.7701698513800425,
+      "dark3_macro_f1": 0.6889712276348454
+    }
+  ]
+}

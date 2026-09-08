@@ -1,0 +1,30 @@
+{
+  "selected_strategy": "weighted_sampler",
+  "selection_metric": "macro_f1",
+  "validation_results": [
+    {
+      "experiment": "weighted_sampler",
+      "accuracy": 0.8813694267515924,
+      "macro_precision": 0.8576656870394962,
+      "macro_recall": 0.9060362858492437,
+      "macro_f1": 0.8597553244008393,
+      "inference_time_seconds": 57.237114999996265
+    },
+    {
+      "experiment": "baseline",
+      "accuracy": 0.9402866242038217,
+      "macro_precision": 0.8890668617840515,
+      "macro_recall": 0.8304640051705114,
+      "macro_f1": 0.8439459956998292,
+      "inference_time_seconds": 65.889806399995
+    },
+    {
+      "experiment": "weighted_loss",
+      "accuracy": 0.7165605095541401,
+      "macro_precision": 0.6450404326777506,
+      "macro_recall": 0.693548077352261,
+      "macro_f1": 0.6310919976886346,
+      "inference_time_seconds": 63.65071139999782
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "selected_preprocessing": "original",
+  "selection_metric": "mean_dark_macro_f1",
+  "validation_dark_results": [
+    {
+      "preprocessing": "original",
+      "mean_dark_macro_f1": 0.886900298482793,
+      "min_dark_macro_f1": 0.8591988964675845,
+      "mean_dark_accuracy": 0.8991507430997876
+    },
+    {
+      "preprocessing": "gamma",
+      "mean_dark_macro_f1": 0.8687826115050585,
+      "min_dark_macro_f1": 0.8423056482937398,
+      "mean_dark_accuracy": 0.8854830148619958
+    },
+    {
+      "preprocessing": "clahe",
+      "mean_dark_macro_f1": 0.7583448150623373,
+      "min_dark_macro_f1": 0.7451787977530353,
+      "mean_dark_accuracy": 0.8090498938428875
+    },
+    {
+      "preprocessing": "histogram_equalization",
+      "mean_dark_macro_f1": 0.7260358088593343,
+      "min_dark_macro_f1": 0.6924822824883742,
+      "mean_dark_accuracy": 0.7673832271762208
+    }
+  ],
+  "validation_control_results": [
+    {
+      "variant": "original",
+      "factor": 1.0,
+      "preprocessing": "original",
+      "samples": 2512,
+      "accuracy": 0.9251592356687898,
+      "macro_precision": 0.9181821959295218,
+      "macro_recall": 0.9269991769832504,
+      "macro_f1": 0.9183033782409022,
+      "inference_time_seconds": 204.19662489999973
+    },
+    {
+      "variant": "bright_1",
+      "factor": 1.3,
+      "preprocessing": "original",
+      "samples": 2512,
+      "accuracy": 0.9263535031847133,
+      "macro_precision": 0.9149910200779259,
+      "macro_recall": 0.9154378194502308,
+      "macro_f1": 0.9110861619113441,
+      "inference_time_seconds": 195.4202175999999
+    },
+    {
+      "variant": "bright_2",
+      "factor": 1.6,
+      "preprocessing": "original",
+      "samples": 2512,
+      "accuracy": 0.9076433121019108,
+      "macro_precision": 0.8954289670243575,
+      "macro_recall": 0.899882359155384,
+      "macro_f1": 0.8892741513581883,
+      "inference_time_seconds": 212.0042186999999
+    },
+    {
+      "variant": "bright_3",
+      "factor": 2.0,
+      "preprocessing": "original",
+      "samples": 2512,
+      "accuracy": 0.8785828025477707,
+      "macro_precision": 0.8462227850551062,
+      "macro_recall": 0.8689540819180991,
+      "macro_f1": 0.844817500030913,
+      "inference_time_seconds": 222.8795616000025
+    }
+  ]
+}

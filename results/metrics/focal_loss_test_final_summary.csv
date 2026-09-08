@@ -1,0 +1,2 @@
+﻿configuration,mean_dark_macro_f1,mean_dark_accuracy,dark3_macro_f1,original_macro_f1,f1_drop_to_dark3
+lighting_augmentation_ce,0.8218511080451295,0.843260431208314,0.7951462005908561,0.8503648782003878,0.0552186776095317
