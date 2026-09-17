@@ -1,0 +1,2 @@
+﻿model,standard_macro_f1,mean_dark_macro_f1,mean_dark_accuracy,dark3_macro_f1,f1_drop_to_dark3
+CustomCNN,0.8546690833205577,0.8103352693370396,0.8458067940552016,0.7545171738839559,0.1001519094366018

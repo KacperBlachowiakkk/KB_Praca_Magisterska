@@ -1,0 +1,2 @@
+﻿model,accuracy,macro_precision,macro_recall,macro_f1,training_time_seconds,inference_time_seconds,parameters
+CustomCNN,0.8857484076433121,0.8557054964542151,0.8979442896136561,0.8546690833205577,16580.4875498,50.27299840000342,413020

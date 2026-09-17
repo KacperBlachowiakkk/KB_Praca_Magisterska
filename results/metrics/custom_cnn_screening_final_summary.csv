@@ -1,0 +1,2 @@
+﻿model,parameters,training_time_seconds,standard_accuracy,standard_macro_precision,standard_macro_recall,standard_macro_f1,mean_dark_macro_f1,mean_dark_accuracy,dark3_macro_f1,f1_drop_to_dark3
+CustomCNN,413020,16580.4875498,0.8857484076433121,0.8557054964542151,0.8979442896136561,0.8546690833205577,0.8103352693370396,0.8458067940552016,0.7545171738839559,0.1001519094366018

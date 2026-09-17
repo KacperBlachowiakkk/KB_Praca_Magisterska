@@ -1,0 +1,2 @@
+﻿model,accuracy,macro_precision,macro_recall,macro_f1,training_time_seconds,inference_time_seconds,parameters
+CustomCNNV2,0.8113057324840764,0.7524267380212727,0.825562434022301,0.7564825648257313,16758.5182779,53.79909090000001,434140

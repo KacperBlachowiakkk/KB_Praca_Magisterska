@@ -1,0 +1,112 @@
+{
+  "experiment": "final_custom_cnn_test",
+  "model": "CustomCNN",
+  "parameters": 413020,
+  "trainable_parameters": 413020,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "balancing_strategy": "weighted_sampler",
+  "loss": "CrossEntropyLoss",
+  "gamma": 1.5,
+  "brightness_range": [
+    0.3,
+    1.3
+  ],
+  "contrast_range": [
+    0.8,
+    1.2
+  ],
+  "augmentation_probability": 0.8,
+  "validation_results": {
+    "accuracy": 0.8861464968152867,
+    "macro_precision": 0.839980325455348,
+    "macro_recall": 0.8954996843447622,
+    "macro_f1": 0.846417056612751,
+    "inference_time_seconds": 58.50434519999999
+  },
+  "test_results": [
+    {
+      "variant": "original",
+      "factor": 1.0,
+      "samples": 4298,
+      "accuracy": 0.8289902280130294,
+      "macro_precision": 0.7895094416199132,
+      "macro_recall": 0.8373916944162944,
+      "macro_f1": 0.7814440219719122,
+      "inference_time_seconds": 92.0750866999997
+    },
+    {
+      "variant": "dark_1",
+      "factor": 0.7,
+      "samples": 4298,
+      "accuracy": 0.8308515588645882,
+      "macro_precision": 0.7860245690031509,
+      "macro_recall": 0.8371866767629529,
+      "macro_f1": 0.7800320916289152,
+      "inference_time_seconds": 87.96664650000002
+    },
+    {
+      "variant": "dark_2",
+      "factor": 0.5,
+      "samples": 4298,
+      "accuracy": 0.8238715681712424,
+      "macro_precision": 0.7810538978731065,
+      "macro_recall": 0.8275806558034103,
+      "macro_f1": 0.7712482663238944,
+      "inference_time_seconds": 90.42848609999965
+    },
+    {
+      "variant": "dark_3",
+      "factor": 0.3,
+      "samples": 4298,
+      "accuracy": 0.7929269427640763,
+      "macro_precision": 0.7615625428150616,
+      "macro_recall": 0.7908034993983434,
+      "macro_f1": 0.7361326667423918,
+      "inference_time_seconds": 90.44168440000067
+    },
+    {
+      "variant": "bright_1",
+      "factor": 1.3,
+      "samples": 4298,
+      "accuracy": 0.811540251279665,
+      "macro_precision": 0.7728293829900861,
+      "macro_recall": 0.8233828015149777,
+      "macro_f1": 0.7662995832378053,
+      "inference_time_seconds": 91.50583819999974
+    },
+    {
+      "variant": "bright_2",
+      "factor": 1.6,
+      "samples": 4298,
+      "accuracy": 0.7778036295951606,
+      "macro_precision": 0.7288123332917975,
+      "macro_recall": 0.7952541348785737,
+      "macro_f1": 0.7211579329776462,
+      "inference_time_seconds": 91.30649189999986
+    },
+    {
+      "variant": "bright_3",
+      "factor": 2.0,
+      "samples": 4298,
+      "accuracy": 0.7135877152163798,
+      "macro_precision": 0.6488234527463964,
+      "macro_recall": 0.7254400481933804,
+      "macro_f1": 0.6450730918591464,
+      "inference_time_seconds": 90.35378029999993
+    }
+  ],
+  "dark_summary": [
+    {
+      "model": "CustomCNN",
+      "mean_dark_macro_f1": 0.7624710082317337,
+      "mean_dark_accuracy": 0.8158833565999689,
+      "dark3_macro_f1": 0.7361326667423918,
+      "original_macro_f1": 0.7814440219719122,
+      "f1_drop_to_dark3": 0.045311355229520456
+    }
+  ],
+  "checkpoint": "C:\\Users\\Dell\\Desktop\\Kacper Błachowiak - praca magisterska - klasyfikacja znaków drogowych\\KB_Praca_Magisterska\\models\\checkpoints\\custom_cnn_ablation_sampler_lighting_gamma.pt"
+}

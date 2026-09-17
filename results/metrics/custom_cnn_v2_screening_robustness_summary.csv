@@ -1,0 +1,2 @@
+﻿model,standard_macro_f1,mean_dark_macro_f1,mean_dark_accuracy,dark3_macro_f1,f1_drop_to_dark3
+CustomCNNV2,0.7564825648257313,0.7324187403604762,0.7785297239915074,0.6984587921658295,0.05802377265990177
